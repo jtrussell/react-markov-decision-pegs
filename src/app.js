@@ -10,7 +10,7 @@ class App extends Component {
         <div className='row justify-content-center'>
           <div className='col-md-8'>
             <h1 className='app__title' style={{marginTop: '1em'}}>
-              React Markov Decision Pegs
+              Markov Decision Pegs
             </h1>
             <p>
               <a href='https://en.wikipedia.org/wiki/Peg_solitaire'>
@@ -139,7 +139,7 @@ class Game extends Component {
 const Rules = () => (
   <div className='rules'>
     <h2>The Rules</h2>
-    <p>It's peg solitaire... that triangle pegs game you've probably seen in
+    <p>It's peg solitaire... that triangular pegs game you've probably seen in
       restaurants.</p>
     <p>Use the buttons above to move pegs around the board. <code>D &rarr;
       A</code> indicates moving a peg from position <code>D</code> to position
@@ -147,7 +147,7 @@ const Rules = () => (
       process.</p>
     <p>While "fuzzy moves" are enabled you may not always get what you ask for.
       The game will select a different move for you about 30% of the time and
-      it'll favor moves using the same peg.</p>
+      it'll favor moves using the same starting peg.</p>
 
     <h3>Scoring</h3>
     <p>The first peg you capture is worth <code>10</code> points. Each
